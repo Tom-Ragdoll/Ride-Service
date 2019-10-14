@@ -1,10 +1,7 @@
-package dsipatchservice;
+package dispatchservice.Interface;
 
-import dsipatchservice.Model.Location;
-import org.springframework.http.ResponseEntity;
+import dispatchservice.Model.Location;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 public interface LocationService {
     @RequestMapping(value = "/drivers/{id}/location", method = RequestMethod.GET, produces = "application/json")

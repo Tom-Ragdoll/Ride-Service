@@ -1,7 +1,6 @@
-package dsipatchservice;
+package dispatchservice.Interface;
 
-import dsipatchservice.Model.Trip;
-import org.springframework.http.ResponseEntity;
+import dispatchservice.Model.Trip;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

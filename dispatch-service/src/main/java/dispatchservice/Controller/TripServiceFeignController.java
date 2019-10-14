@@ -1,6 +1,6 @@
-package dsipatchservice.Controller;
+package dispatchservice.Controller;
 
-import dsipatchservice.TripServiceFeignClient;
+import dispatchservice.Interface.TripServiceFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class TripServiceFeignController

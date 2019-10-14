@@ -1,4 +1,4 @@
-package dsipatchservice;
+package dispatchservice.Interface;
 
 import org.springframework.cloud.openfeign.FeignClient;
 

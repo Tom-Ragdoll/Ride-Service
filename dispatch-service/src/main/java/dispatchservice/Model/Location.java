@@ -1,4 +1,4 @@
-package dsipatchservice.Model;
+package dispatchservice.Model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

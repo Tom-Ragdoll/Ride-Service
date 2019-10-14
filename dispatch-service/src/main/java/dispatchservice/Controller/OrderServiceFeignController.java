@@ -1,4 +1,4 @@
-package dsipatchservice.Controller;
+package dispatchservice.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

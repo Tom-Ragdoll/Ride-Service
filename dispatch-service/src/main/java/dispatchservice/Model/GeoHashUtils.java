@@ -1,4 +1,4 @@
-package dsipatchservice.Model;
+package dispatchservice.Model;
 
 import java.util.HashMap;
 import java.util.Map;

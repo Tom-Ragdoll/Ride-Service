@@ -1,12 +1,13 @@
-package dsipatchservice.Controller;
+package dispatchservice.Controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import dsipatchservice.LocationServiceFeignClient;
-import dsipatchservice.Model.Location;
-import dsipatchservice.Model.Order;
-import dsipatchservice.Model.Trip;
-import dsipatchservice.OrderServiceFeignClient;
-import dsipatchservice.TripServiceFeignClient;
+
+import dispatchservice.Interface.LocationServiceFeignClient;
+import dispatchservice.Interface.OrderServiceFeignClient;
+import dispatchservice.Interface.TripServiceFeignClient;
+import dispatchservice.Model.Location;
+import dispatchservice.Model.Order;
+import dispatchservice.Model.Trip;
 import feign.FeignException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

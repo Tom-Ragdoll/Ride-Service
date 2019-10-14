@@ -1,7 +1,6 @@
-package dsipatchservice;
+package dispatchservice.Interface;
 
-import dsipatchservice.Model.Order;
-import org.springframework.http.ResponseEntity;
+import dispatchservice.Model.Order;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
