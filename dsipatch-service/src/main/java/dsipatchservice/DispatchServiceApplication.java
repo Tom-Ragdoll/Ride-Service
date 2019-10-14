@@ -12,10 +12,10 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackageClasses = LocationServiceFeignClient.class)
 @EnableDiscoveryClient
 @SpringBootApplication
-public class DsipatchServiceApplication {
+public class DispatchServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DsipatchServiceApplication.class, args);
+		SpringApplication.run(DispatchServiceApplication.class, args);
 	}
 
 }
